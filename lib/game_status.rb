@@ -22,7 +22,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.none?{ |i| i == " " || i.nil? }
+  board.all?{ |i| i == "X" || i == "O" }
   puts "Check full board"
 end
 
@@ -32,7 +32,7 @@ def draw?(board)
 end
 
 def over?
-  puts "Chaeck Game Over"
+  puts "Check Game Over"
 end
 
 def winner?
