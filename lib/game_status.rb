@@ -37,7 +37,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) 
+  if won?(board)
     if WIN_COMBINATIONS.include?("X")
       "X"
     else
