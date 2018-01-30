@@ -37,6 +37,10 @@ def over?(board)
 end
 
 def winner?(board)
-
+  if won?(board)
+    WIN_COMBINATIONS.any?{ |i| 
+      if i == "X" puts "X" else puts "O"
+    }
+  end
   #puts "Check Winner?"
 end
