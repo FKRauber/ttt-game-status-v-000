@@ -31,10 +31,8 @@ end
 
 def over?(board)
   won?(board) != nil || draw?(board)
-  puts "Check Game Over"
 end
 
 def winner?(board)
 
-  puts "Check Winner?"
 end
