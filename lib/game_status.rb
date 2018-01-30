@@ -38,9 +38,9 @@ end
 
 def winner(board)
   if won?(board)
-    if board[].include?("X") 
+    if board[].include?("X")
       "X"
-    else 
+    else
       "O"
     end
   else
