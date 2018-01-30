@@ -38,6 +38,7 @@ end
 
 def winner?(board)
   if won?(board)
+    
     #winner = board[won?(board)[0]]
   else
     return nil
