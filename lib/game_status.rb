@@ -37,11 +37,12 @@ def over?(board)
 end
 
 def winner?(board)
-  if won?(board)
-    
-    #winner = board[won?(board)[0]]
-  else
+  winning_board == won?(board)
+  if winning_board == nil
     return nil
-  end
+  elsif board[winning_board[0]].include? "X"
+    puts "X"
+  else
+    puts "O"
   #puts "Check Winner?"
 end
