@@ -23,20 +23,20 @@ end
 
 def full?(board)
   board.all?{ |i| i == "X" || i == "O" }
-  puts "Check full board"
+  #puts "Check full board"
 end
 
 def draw?(board)
   !won?(board) && full?(board)
-  puts "Check Draw"
+  #puts "Check Draw"
 end
 
 def over?(board)
   won?(board) != nil || draw?(board)
-  puts "Check Game Over"
+  #puts "Check Game Over"
 end
 
 def winner?(board)
 
-  puts "Check Winner?"
+  #puts "Check Winner?"
 end
