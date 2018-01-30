@@ -22,13 +22,11 @@ def won?(board)
 end
 
 def full?(board)
-  board.all?{ |i| i == "X" || i == "O" } 
-  puts "Check full board"
+  board.all?{ |i| i == "X" || i == "O" }
 end
 
 def draw?(board)
   !won?(board) && full?(board)
-  puts "Check Draw"
 end
 
 def over?(board)
