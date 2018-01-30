@@ -37,8 +37,8 @@ def over?(board)
 end
 
 def winner?(board)
-  if won?(board)
-    #WIN_COMBINATIONS.any?{ |i| if i == "X" puts "X" else puts "O" }
+  if won?(board) != nil
+    winner = board[won?(board)[0]]
   end
   #puts "Check Winner?"
 end
