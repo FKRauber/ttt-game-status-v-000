@@ -32,7 +32,7 @@ def draw?(board)
 end
 
 def over?(board)
-  won?(board) == true || draw?(board) == true || full?(board) == true
+  won?(board) || draw?(board) || full?(board)
   puts "Check Game Over"
 end
 
