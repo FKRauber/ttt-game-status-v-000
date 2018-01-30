@@ -26,8 +26,8 @@ def full?(board)
   puts "Check full board"
 end
 
-def draw?
-  
+def draw?(board)
+  !won?(board) && full?(board)
   puts "Check Draw"
 end
 
