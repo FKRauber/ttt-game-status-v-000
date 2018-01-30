@@ -25,3 +25,14 @@ def full?
 
 end
 
+def draw?
+
+end
+
+def over?
+
+end
+
+def winner?
+
+end
