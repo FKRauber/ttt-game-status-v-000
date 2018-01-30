@@ -36,6 +36,12 @@ def over?(board)
   puts "Check Game Over"
 end
 
-def winner?
+def winner?(board)
+  WIN_COMBINATIONS.find do |i| 
+    if i == "X"
+      puts "X"
+    else
+      puts "O"
+  end
   puts "Check Winner?"
 end
