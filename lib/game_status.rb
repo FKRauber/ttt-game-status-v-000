@@ -38,11 +38,7 @@ end
 
 def winner(board)
   if won?(board)
-    if board.include?("X")
-      "X"
-    else
-      "O"
-    end
+    winner = board[won?(board)[0]]
   else
     return nil
   end
