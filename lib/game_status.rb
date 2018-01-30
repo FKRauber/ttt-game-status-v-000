@@ -31,7 +31,8 @@ def draw?(board)
   puts "Check Draw"
 end
 
-def over?
+def over?(board)
+  won?(board) || draw?(board) || full?(board)
   puts "Check Game Over"
 end
 
