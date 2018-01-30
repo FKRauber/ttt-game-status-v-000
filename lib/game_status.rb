@@ -36,7 +36,7 @@ def over?(board)
   #puts "Check Game Over"
 end
 
-def winner?(board)
+def winner(board)
   if won?(board) && WIN_COMBINATIONS.include?("X")
     "X"
   elsif won?(board) && WIN_COMBINATIONS.include?("O")
