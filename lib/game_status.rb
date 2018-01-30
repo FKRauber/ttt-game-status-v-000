@@ -22,7 +22,7 @@ def won?(board)
 end
 
 def full?(board)
-  [board].all?{ |i| i == "O" || i == "X" }
+  board.all?{ |i| i == "O" || i == "X" }
   puts "Check full board"
 end
 
