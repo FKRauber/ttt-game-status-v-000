@@ -44,5 +44,6 @@ def winner?(board)
     puts "X"
   else
     puts "O"
+  end
   #puts "Check Winner?"
 end
