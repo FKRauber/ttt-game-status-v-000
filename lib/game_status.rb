@@ -23,17 +23,18 @@ end
 
 def full?(board)
   [board].all?{ |i| i == "O" || i == "X" }
-  puts "The board is full"
+  puts "Check full board"
 end
 
 def draw?
-  puts "It's a Draw"
+  
+  puts "Check Draw"
 end
 
 def over?
-  puts "Game Over"
+  puts "Chaeck Game Over"
 end
 
 def winner?
-  puts "Is there a winner?"
+  puts "Check Winner?"
 end
