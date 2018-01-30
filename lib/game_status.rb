@@ -38,7 +38,7 @@ end
 
 def winner(board)
   if won?(board)
-    if WIN_COMBINATIONS.include?("X")
+    if WIN_COMBINATIONS[i][i].include?("X")
       "X"
     else
       "O"
